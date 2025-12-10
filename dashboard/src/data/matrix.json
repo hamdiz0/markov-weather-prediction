@@ -1,0 +1,50 @@
+{
+  "Sunny": {
+    "Sunny": 0.7826,
+    "PartlyCloudy": 0.121,
+    "Cloudy": 0.0101,
+    "Windy": 0.0297,
+    "Rainy": 0.021,
+    "ThunderStorm": 0.0355
+  },
+  "PartlyCloudy": {
+    "Sunny": 0.4408,
+    "PartlyCloudy": 0.3503,
+    "Cloudy": 0.0162,
+    "Windy": 0.0394,
+    "Rainy": 0.109,
+    "ThunderStorm": 0.0418
+  },
+  "Cloudy": {
+    "Sunny": 0.2727,
+    "PartlyCloudy": 0.4545,
+    "Cloudy": 0.0606,
+    "Windy": 0.1212,
+    "Rainy": 0.0606,
+    "ThunderStorm": 0.0303
+  },
+  "Windy": {
+    "Sunny": 0.4778,
+    "PartlyCloudy": 0.2222,
+    "Cloudy": 0.0333,
+    "Windy": 0.1778,
+    "Rainy": 0.0444,
+    "ThunderStorm": 0.0444
+  },
+  "Rainy": {
+    "Sunny": 0.1984,
+    "PartlyCloudy": 0.3889,
+    "Cloudy": 0.0476,
+    "Windy": 0.0714,
+    "Rainy": 0.2778,
+    "ThunderStorm": 0.0159
+  },
+  "ThunderStorm": {
+    "Sunny": 0.3402,
+    "PartlyCloudy": 0.2887,
+    "Cloudy": 0.0103,
+    "Windy": 0.0309,
+    "Rainy": 0.0928,
+    "ThunderStorm": 0.2371
+  }
+}
