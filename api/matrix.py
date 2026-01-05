@@ -63,13 +63,13 @@ def generate_matrix(station, from_year, from_year_month, from_year_day, to_year,
     def get_daily_state(group):
         state_counts = group.value_counts()
 
-        if 'ThunderStorm' in state_counts.index and state_counts['ThunderStorm'] >= 2:
+        if 'ThunderStorm' in state_counts.index and state_counts['ThunderStorm'] >= 2: #1hour
             return 'ThunderStorm'
 
-        if 'Rainy' in state_counts.index and state_counts['Rainy'] >= 3:
+        if 'Rainy' in state_counts.index and state_counts['Rainy'] >= 3: #1.5 hours
             return 'Rainy'
 
-        if 'Windy' in state_counts.index and state_counts['Windy'] >= 3:
+        if 'Windy' in state_counts.index and state_counts['Windy'] >= 3: #1.5 hours
             return 'Windy'
 
         # For all other states, use most frequent
