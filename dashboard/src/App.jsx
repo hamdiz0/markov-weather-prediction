@@ -222,7 +222,7 @@ function App() {
         <FooterContent>
           <FooterBrand>ATMOS</FooterBrand>
           <FooterText>
-            Built with Markov Chains & React
+            Built with Markov Chains, React & FastAPI
           </FooterText>
         </FooterContent>
       </Footer>
